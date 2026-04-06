@@ -1,0 +1,249 @@
+/* 这里是写index页面的专门样式 */
+.entry{
+  height: 500px;
+  background-color: #F5F5F5;
+}
+.entry .w{
+  height: 100%;
+  background: url(../uploads/banner1.png) no-repeat;
+}
+.category{
+  width: 250px;
+  height: 500px;
+  background: rgba(0,0,0,.42);
+}
+.category ul li{
+  height: 50px;
+  padding-left: 29px;
+  padding-right: 14.43px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.category ul li a{
+  color: #fff;
+  font-size: 14px;
+}
+.category ul li i{
+  height: 10px;
+  width: 10px;
+}
+.category ul li a:first-child{
+  font-size: 16px;
+  margin-right: 14px;
+}
+.category ul li:hover{
+  background-color: #00BE9A ;
+}
+/* 新鲜好物板块 */
+.box-hd{
+  height: 112px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-hd h2{
+  font-size: 30px;
+}
+.box-hd h2 small{
+  font-size: 16px;
+  color: #A1A1A1;
+  margin-left: 30px;
+}
+.box-hd a{
+  font-size: 16px;
+  color: #A1A1A1;
+}
+.box-bd ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-bd ul li{
+  width: 304px;
+  height: 404px;
+  text-align: center;
+}
+.box-bd ul li a{
+  display: block;
+  height: 100%;
+}
+.box-bd ul li img{
+  width: 304px;
+  height: 304px;
+}
+.box-bd ul li .title{
+  margin: 18px 0 15px;
+  font-size: 20px;
+  padding: 0 25px;
+  /* 单行文字溢出显示省略号 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+ }
+.box-bd ul li .price{
+  font-size: 22px;
+  color: #aa2113;
+}
+.box-bd ul li .price small{
+  font-size: 18px;
+}
+/* 人气推荐模块 */
+.hot {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.hot .box-bd ul li {
+  background-color: #fff;
+}
+/* 热门品牌板块 */
+.brand {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  background-color: #F5F5F5;
+}
+.brand .box-bd ul li {
+  background-color: #fff;
+}
+.brand .box-hd .arrow {
+  display: flex;
+
+  gap: 10px;
+}
+.brand .box-hd .arrow a {
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  background-color: #F5F5F5;
+  font-size: 16px;
+  color: #666;
+}
+.brand .arrow i{
+  width: 20px;
+  height: 20px;
+ }
+ .brand .arrow a:hover {
+  background-color: #00BE9A;
+  color: #fff;
+ }
+ .brand .box-bd ul{
+  width: 1240px;
+
+ }
+ .brand .box-bd ul li img{
+  width: 244px;
+  height: 306px;
+ }
+/* 服装模块 */
+.head{
+  height: 102px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .head h2{
+  font-size: 30px;
+ }
+.head .head-right{
+  display: flex;
+}
+.head .head-right ul{
+  display: flex;
+  align-items: center;
+
+}
+.head .head-right ul li{
+  margin-right: 30px;
+}
+.head .head-right>a{
+  font-size: 16px;
+  color: #A1A1A1;
+  margin-left: 65px;
+}
+.head .head-right ul li a{
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+.head .head-right ul li a:hover{
+  color:#fff;
+
+  background-color: #00BE9A;
+}
+.body{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.body .body-l{
+  width: 248px;
+  height: 610px;
+}
+.body .body-r{
+  width: 968px;
+  height: 610px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.body .body-r li{
+  width: 242px;
+  height: 305px;
+  padding:10px 21px 0;
+}
+.body .body-r li a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 19px;
+}
+.body .body-r li  img{
+  width: 200px;
+  height: 180px;
+}
+.body .body-r li .title{
+  margin-top: 10px;
+  font-size: 16px;
+ }
+ .body .body-r li .price{
+  font-size: 22px;
+  color: #af2f22;
+  margin-top: 12px;
+}
+.body .body-r li .price small{
+  font-size: 18px;
+}
+.fresh{
+  background-color: #fff;
+}
+.clothes{
+  background-color: #fff;
+}
+.kitchen{
+  background-color: #fff;
+}
+.home{
+  background-color: #fff;
+}
+.latest{
+  background-color: #fff;
+}
+.news ul{
+  display: flex;
+  gap: 12px;
+ }
+.news ul li{
+  flex: 1;
+  height: 355px;
+ }
+ .news .con{
+  height: 67px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+  
