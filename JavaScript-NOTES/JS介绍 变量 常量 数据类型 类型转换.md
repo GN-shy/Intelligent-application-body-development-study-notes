@@ -359,7 +359,7 @@ true和false
 
 
 ```markdown
-​```javascript
+
 let age          // 声明变量但是未赋值
 document.write(age)  // 输出 undefined
 ```
