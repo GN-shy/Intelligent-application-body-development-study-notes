@@ -181,22 +181,7 @@ My learning approach includes:
 * 🔍 Reviewing mistakes and solutions regularly
 * 🚀 Continuously updating learning content
 
----
 
-# 📈 Progress Tracking | 学习进度
-
-| Technology | Progress       |
-| ---------- | -------------- |
-| Front-end  | ███████░░░ 70% |
-| Database   | █████░░░░░ 50% |
-| Java SE    | ████████░░ 80% |
-| Backend    | ████░░░░░░ 40% |
-| AI Agent   | ███░░░░░░░ 30% |
-
-> Learning never stops.
-> 学习是一个长期积累的过程。
-
----
 
 # 🛠️ What You Can Find Here | 仓库内容
 
