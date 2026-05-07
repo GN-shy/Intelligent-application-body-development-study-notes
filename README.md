@@ -1,84 +1,300 @@
-# AI Intelligent Application Development & AI Agent Learning Journey  
-# AI智能应用开发与AI Agent学习记录
+# 🚀 Learning Journey Repository
+
+<div align="center">
+
+
+### 📚 Personal Learning Roadmap & Knowledge Base
+
+### 📚 💻 Full Stack Development & AI Agent Learning Repository
+### 🤖 全栈开发与 AI Agent 学习路线仓库
+
+</div>
 
 ---
 
-## Overview | 项目简介
+# 📖 Introduction | 仓库简介
 
-This repository documents my journey toward becoming an **AI Intelligent Application Developer**, with a strong focus on **AI-powered applications and AI Agent systems**.
+## 中文
 
-本仓库用于记录我成长为 **AI智能应用开发工程师** 的全过程，重点聚焦于 **AI应用开发与AI智能体（Agent）系统**。
+这是一个用于记录我个人技术学习路线的 GitHub 仓库。
+仓库主要用于整理：
 
-It serves as a long-term, evolving space for:
+* 📘 学习笔记
+* 💻 代码练习
+* 🛠️ 项目实践
+* 📑 阶段总结
+* 🚀 技术探索
 
-本仓库作为一个持续迭代的技术空间，主要用于：
+目前主要学习方向包括：
 
-- Learning notes ｜ 学习笔记  
-- Coding practices ｜ 代码练习  
-- AI experiments ｜ AI实验  
-- Project implementations ｜ 项目实践  
+* 前端开发（HTML / CSS / JavaScript）
+* 数据库（MySQL）
+* Java SE
+* 后端开发
+* AI Agent
 
----
-
-## Focus | 学习主线
-
-The core direction of this repository is:
-
-本仓库的核心学习主线为：
-
-> **AI Intelligent Application Development + AI Agent Systems**  
-> **AI智能应用开发 + AI智能体系统**
-
-Supported by a full-stack foundation:
-
-以全栈开发能力作为支撑：
-
-- Frontend Development ｜ 前端开发  
-- Database Systems ｜ 数据库  
-- Java & Backend Engineering ｜ Java与后端开发  
-
-The emphasis is on building **end-to-end intelligent systems**, not just isolated components.
-
-重点在于构建**完整的智能应用系统能力**，而不是零散技术。
+我希望通过这个仓库，将自己的学习过程系统化、长期化，并持续积累开发经验。
 
 ---
 
-## Repository Structure | 仓库结构
+## English
 
-```bash
+This repository is my personal technology learning archive on GitHub.
+
+It is mainly used to store:
+
+* 📘 Learning notes
+* 💻 Coding exercises
+* 🛠️ Project practice
+* 📑 Stage summaries
+* 🚀 Technical exploration
+
+Current learning areas include:
+
+* Front-end Development (HTML / CSS / JavaScript)
+* Database (MySQL)
+* Java SE
+* Back-end Development
+* AI Agent
+
+The goal of this repository is to systematically document my learning journey and continuously improve my development skills.
+
+---
+
+# 🎯 Learning Roadmap | 学习路线
+
+```text id="4m4h4n"
+Frontend Development
+        ↓
+Database & SQL
+        ↓
+Java SE Fundamentals
+        ↓
+Backend Development
+        ↓
+Full Stack Development
+        ↓
+AI Agent & Intelligent Applications
+```
+
+---
+
+# 🧠 Current Learning Stack | 当前学习技术栈
+
+<table>
+<tr>
+<td align="center" width="180">
+
+### 🌐 Frontend
+
+HTML
+CSS
+JavaScript
+Responsive Layout
+
+</td>
+
+<td align="center" width="180">
+
+### 🗄️ Database
+
+MySQL
+SQL
+Table Design
+Index & Query
+
+</td>
+
+<td align="center" width="180">
+
+### ☕ Java SE
+
+OOP
+Collections
+IO
+Multithreading
+
+</td>
+
+<td align="center" width="180">
+
+### ⚙️ Backend
+
+API Development
+Spring Ecosystem
+Project Structure
+
+</td>
+
+<td align="center" width="180">
+
+### 🤖 AI Agent
+
+Prompt Engineering
+Workflow
+Tool Calling
+Agent Practice
+
+</td>
+</tr>
+</table>
+
+---
+
+# 📂 Repository Structure | 仓库结构
+
+```text id="pw84f0"
 .
-├── frontend        # 前端基础与实践
-├── database        # 数据库与SQL
-├── java            # Java与后端相关内容
-├── backend         # 后端系统开发
-├── ai              # AI应用与Agent探索
-└── projects        # 项目实践
-Notes | 说明
-This repository mainly contains learning notes and practical code
-本仓库主要记录学习笔记与实践代码
-Includes selected project-based implementations
-包含部分项目实战内容
-Java advanced notes and algorithm-related content are maintained in a separate repository
-Java深入学习与算法内容已拆分至其他仓库
-Objective | 学习目标
-Build AI-powered full-stack applications
-构建AI驱动的全栈应用
-Design intelligent and scalable systems
-设计智能化与可扩展系统
-Develop AI Agent-based solutions
-开发基于Agent的智能系统
-Bridge AI capabilities with real-world scenarios
-实现AI与真实业务场景的结合
-Philosophy | 学习理念
+├── frontend/          # Front-end notes & practice
+├── database/          # Database learning & SQL exercises
+├── javase/            # Java SE fundamentals & examples
+├── backend/           # Backend development learning
+├── ai-agent/          # AI Agent exploration & practice
+├── projects/          # Mini projects & integrated practice
+├── notes/             # General notes & reflections
+└── README.md          # Repository documentation
+```
 
-Focus on depth, system thinking, and real-world impact
-注重深度、体系化思维与实际应用能力
+---
 
-This repository reflects a commitment to long-term growth and engineering capability.
+# 📚 Learning Philosophy | 学习方式
 
-本仓库体现的是对长期成长与工程能力的追求。
+## 中文
 
-Acknowledgement | 支持
+我的学习方式主要包括：
 
-If this repository helps you, feel free to give it a ⭐.
-如果这个仓库对你有帮助，欢迎点个 ⭐ 支持一下！
+* 📖 先理解核心概念，再进行代码实践
+* ✍️ 边学习边整理笔记
+* 💡 通过项目和练习巩固知识
+* 🔍 定期复盘问题与错误
+* 🚀 持续更新学习内容
+
+---
+
+## English
+
+My learning approach includes:
+
+* 📖 Understanding concepts before coding
+* ✍️ Taking notes while learning
+* 💡 Reinforcing knowledge through projects
+* 🔍 Reviewing mistakes and solutions regularly
+* 🚀 Continuously updating learning content
+
+---
+
+# 📈 Progress Tracking | 学习进度
+
+| Technology | Progress       |
+| ---------- | -------------- |
+| Front-end  | ███████░░░ 70% |
+| Database   | █████░░░░░ 50% |
+| Java SE    | ████████░░ 80% |
+| Backend    | ████░░░░░░ 40% |
+| AI Agent   | ███░░░░░░░ 30% |
+
+> Learning never stops.
+> 学习是一个长期积累的过程。
+
+---
+
+# 🛠️ What You Can Find Here | 仓库内容
+
+## 📘 Notes
+
+* Technical notes
+* Knowledge summaries
+* Learning reflections
+
+## 💻 Practice
+
+* Coding exercises
+* Algorithm practice
+* Syntax examples
+
+## 🚀 Projects
+
+* Mini projects
+* Backend practice projects
+* Full stack experiments
+* AI Agent demos
+
+---
+
+# 🔥 Future Plans | 后续计划
+
+* [ ] Complete front-end learning system
+* [ ] Learn Spring Boot deeply
+* [ ] Build full-stack projects
+* [ ] Explore AI Agent workflows
+* [ ] Participate in competitions & open-source projects
+* [ ] Build personal technical portfolio
+
+---
+
+# 🌟 Goals | 目标
+
+## 中文
+
+希望未来能够：
+
+* 成为具备全栈能力的软件开发者
+* 深入学习 AI Agent 与智能应用方向
+* 独立完成完整项目开发
+* 积累真实项目经验
+* 持续提升工程能力与技术深度
+
+---
+
+## English
+
+Future goals:
+
+* Become a full-stack developer
+* Explore AI Agent and intelligent applications deeply
+* Build complete projects independently
+* Gain real-world project experience
+* Continuously improve engineering skills
+
+---
+
+# 📅 Changelog | 更新记录
+
+```text id="t4d0db"
+2026-05-07
+- Created repository structure
+- Added bilingual README
+- Added learning roadmap
+- Added progress tracking
+```
+
+---
+
+# 🤝 Contributions | 交流与建议
+
+如果你也在学习：
+
+* Front-end
+* Java
+* Backend Development
+* Database
+* AI Agent
+
+欢迎一起交流学习。
+
+If you are also learning similar technologies, feel free to communicate and share ideas.
+
+---
+
+# ⭐ Final Words | 结尾
+
+> “The best way to learn programming is to keep building.”
+> “学习编程最好的方式，就是不断实践。”
+
+---
+
+<div align="center">
+
+### 🚀 Keep Learning, Keep Building.
+
+</div>
