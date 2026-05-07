@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>js基础-笔试题</title>
+</head>
+
+<body>
+  <script>
+      //   1. 声明age变量并赋值为18
+    let age=18
+      //   2. 声明uname, age, gender 多个变量
+    let uname,age,gender
+      //   3. 定义数组，保存 小黑、小红、小花 三个人的名字
+    let names=['小黑','小红','小花']
+      //   4. 写出for循环遍历数组的基本语法
+    for(let i=0;i<names.length;i++){
+      console.log(names[i])
+    }
+      //   5. 写出数字自增的做法有哪些
+    let num=1
+    num=num+1
+    num++
+    num+=1
+    ++num
+      //   6. 写出if单分支、双分支、多分支语句
+    if(条件){}
+    if(条件){
+
+    }else{
+
+    }
+    if(){
+
+    }else if(){
+
+    }else{}
+      //   7. 请写出三元运算符的语法
+    条件？满足是执行：不满足时执行
+      //   8. 请写出for循环的语法
+    for (初始化; 条件; 自增/自减) {
+  循环体
+}
+    
+
+      //   9. 写出出数组的常用方法和对应的作用
+    let arr=[1,2,3
+      arr.push()  //末尾添加
+      arr.pop()   //删除末尾
+      arr.unshift()//开头添加
+      arr.shift()  //删除开头
+      arr.splice() //删除/替换指定元素
+      arr.forEach() //遍历数组
+      arr.filter()     // 过滤数组
+      arr.map()        // 映射新数组
+      arr.find()       // 查找符合条件的第一个元素
+      arr.indexOf()    // 查找元素索引
+      arr.join()       // 数组转字符串
+      arr.concat()     // 合并数组
+
+    ]
+      //   10. 写出函数的语法
+      //         带有形参和返回值
+    function 函数名(参数){
+      return 返回值
+    }
+      //   11. 写出作用域有哪些
+    全局作用域
+    函数作用域(局部)
+    块级作用域 （let/const)
+      // 13. 写出遍历对象的语法
+for (let key in 对象) {
+  console.log(key, 对象[key])
+}
+
+// 14. 写出基本数据类型有哪5种
+string  字符串
+number  数字
+boolean 布尔
+undefined 未定义
+null    空
+
+// 15. 写出 转换为数值型常见方法
+Number(数据)
+parseInt(数据)
+parseFloat(数据)
++数据
+
+// 16. 写出模板字符串使用方式
+`字符串${变量}字符串`
+
+// 17. 写出布尔类型的值为false 的值哪些
+false
+0
+'' / ""（空字符串）
+null
+undefined
+NaN
+
+18. 写出 +加号的功能有哪些
+1. 数学加法运算
+2. 字符串拼接
+3. 转为数字（正号）
+  </script>
+</body>
+
+</html>
